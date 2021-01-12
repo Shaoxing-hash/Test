@@ -8,16 +8,16 @@ public class Bintree
         public Node(int x){
             value = x;
         }
-        //添加节点
+        //添加节点 不允许键值相等
         public void add(Node node){
             //如果大于等于当前节点
-            if(node.value >= this.value){
+            if(node.value > this.value){
                 //如果右子树为空
                 if(this.rightNode ==null) this.rightNode = node;
                 else {
                     this.rightNode.add(node);
                 }
-            }else {
+            }else if(node.value < this.value){
                 //如果左子树为空
                 if(this.leftNode == null) this.leftNode = node;
                 else this.leftNode.add(node);
