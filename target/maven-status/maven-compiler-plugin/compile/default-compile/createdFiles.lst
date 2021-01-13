@@ -1,6 +1,9 @@
 serializable\SerializableUtil.class
+Sort\BubbleSort.class
 Bintree.class
 Bintree$Node.class
+Sort\Sort.class
+Sort\SortTest.class
 Queue.class
 TxtReader.class
 serializable\User.class
