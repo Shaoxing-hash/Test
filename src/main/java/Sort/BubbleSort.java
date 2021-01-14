@@ -6,7 +6,7 @@ package Sort;
  * @Param
  * @return
  **/
-public class BubbleSort implements Sort
+public class BubbleSort extends Sort
 {
     private int[] array;
     private int number = 0;
@@ -26,7 +26,7 @@ public class BubbleSort implements Sort
             boolean flag = false;
             for(int j = 0; j < leng-1-i; j++){
                 if(array[j] > array[j+1]){
-                    flag = swap(array, j, j+1);
+                    flag = Swap(array, j, j+1);
                 }
 
             }
@@ -39,7 +39,7 @@ public class BubbleSort implements Sort
         return array;
     }
 
-    private boolean swap(int[] array, int index1, int index2)
+    private boolean Swap(int[] array, int index1, int index2)
     {
         int temp = array[index1];
         array[index1] = array[index2];
@@ -66,6 +66,7 @@ public class BubbleSort implements Sort
             left+=1;
         }
     }
+
     public void traverse() throws NullPointerException
     {
         if(this.array == null || this.array.length == 0){
