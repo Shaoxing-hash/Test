@@ -1,10 +1,11 @@
 serializable\SerializableUtil.class
 Sort\InsertionSort.class
 Sort\util\Traverse.class
+Sort\QuickSort.class
 Sort\Sort.class
 Queue.class
 Sort\BubbleSort.class
-Sort\util\ShellSort.class
+Sort\ShellSort.class
 Bintree.class
 Bintree$Node.class
 Sort\SortTest.class

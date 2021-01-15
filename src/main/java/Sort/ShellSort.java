@@ -1,4 +1,4 @@
-package Sort.util;
+package Sort;
 
 import Sort.Sort;
 //不稳定，时间复杂度为O(n^1+e)其中(0 < e <1), 空间复杂度为O(1)
